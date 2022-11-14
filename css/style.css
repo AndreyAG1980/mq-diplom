@@ -6,14 +6,14 @@
 
 @font-face {
 font-family: OpenSans;
-src: url(sources/fonts/OpenSans-Regular.woff);
+src: url(../fonts/OpenSans-Regular.woff);
 font-weight: normal;
 font-style: normal;
 }
 
 @font-face {
 font-family: OpenSans;
-src: url(sources/fonts/OpenSans-Bold.woff);
+src: url(../fonts/OpenSans-Bold.woff);
 font-weight: bold;
 font-style: normal;
 }
@@ -71,7 +71,7 @@ body {
 .modal-select-form::after {
 	content: "";
 	position: absolute;
-	background-image: url(sources/svg/form-arrows.svg);
+	background-image: url(../svg/form-arrows.svg);
 	background-size: cover;
 	background-position: center;
 	width: 9px;
@@ -108,7 +108,7 @@ body {
 	width: 17px;
 	height: 17px;
 	background-size: cover;
-	background-image: url(sources/svg/form-empty-circle.svg);
+	background-image: url(../svg/form-empty-circle.svg);
 	background-position: 100% 100%;	
 	background-repeat: no-repeat;
 	margin-right: 4px;
@@ -127,7 +127,7 @@ body {
 }
 
 .modal-radio:checked {
-	background-image: url(sources/svg/form-circle.svg);
+	background-image: url(../svg/form-circle.svg);
 	background-repeat: no-repeat;
  	background-size: cover;
 	width: 17px;
@@ -185,7 +185,7 @@ body {
 	width: 19px;
 	height: 19px;
 	position: absolute;
-	background-image: url(sources/svg/form-x.svg);
+	background-image: url(../svg/form-x.svg);
 	background-size: cover;
 	top: -24px;
     right: 0px;
@@ -195,7 +195,7 @@ body {
 
 .header {
 	background: #868686;
-	background-image: url(sources/images/banner-bg.jpg);
+	background-image: url(../images/banner-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;	
@@ -621,7 +621,7 @@ input::-webkit-search-results-decoration {
 	width: 48px;
 	height: 48px;
 	background: #b59f5b;
-	background-image: url(sources/svg/search.svg);
+	background-image: url(../svg/search.svg);
 	background-size: 18px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -847,7 +847,7 @@ input::-webkit-search-results-decoration {
 .product-price-currency::after {
 	content: "";
 	position: absolute;
-	background-image: url(sources/images/Shape5.png);
+	background-image: url(../images/Shape5.png);
 	width: 7px;
 	height: 3px;
 	top: 12px;
@@ -902,25 +902,25 @@ input::-webkit-search-results-decoration {
 }
 
 .footer-twitter {
-	background-image: url(sources/svg/004-twitter.svg);
+	background-image: url(../svg/004-twitter.svg);
 }
 
 .footer-pininterest {
-	background-image: url(sources/svg/001-pinterest.svg);
+	background-image: url(../svg/001-pinterest.svg);
 }
 
 .footer-facebook {
-	background-image: url(sources/svg/002-facebook-logo.svg);
+	background-image: url(../svg/002-facebook-logo.svg);
 	background-position: center;
 	background-size: cover;
 }
 
 .footer-instagram {
-	background-image: url(sources/svg/005-instagram.svg);
+	background-image: url(../svg/005-instagram.svg);
 }
 
 .footer-tumblr {
-	background-image: url(sources/svg/003-tumblr.svg);
+	background-image: url(../svg/003-tumblr.svg);
 }
 
 .footer-copyrights {
@@ -952,7 +952,7 @@ input::-webkit-search-results-decoration {
 	}
 
 	.header {
-		background-image: url(sources/images/banner-mobile.jpg);
+		background-image: url(../images/banner-mobile.jpg);
 	}
 
 	.header-menu-row {
@@ -1034,7 +1034,7 @@ input::-webkit-search-results-decoration {
 	}
 
 	.header {
-		background-image: url(sources/images/banner-bg-tablet.jpg);
+		background-image: url(../images/banner-bg-tablet.jpg);
 	}
 
 
@@ -1097,7 +1097,7 @@ input::-webkit-search-results-decoration {
 		min-height: 20px;
 		width: 5vmax;
 		height: 5vmax;
-		background-image: url(sources/images/BTNclose.png);
+		background-image: url(../images/BTNclose.png);
 		background-repeat: no-repeat;
 		background-size: cover;
 		z-index: inherit;
